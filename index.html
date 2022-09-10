@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MÉrabliEh!</title>
+
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link href="css/owl.carousel.css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.carousel.css/owl.theme.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<!--<link rel="stylesheet" href="css/tabs.css">-->
+	<link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Uncomment for transparent tamplate
+		<link rel="stylesheet" href="css/style2.css">  
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9415987.js"></script>
+		<!-- End of HubSpot Embed Code -->
+	<style>
+ 
+    .div-0 {
+        background-color:  #00ace6;
+    }
+    .div-1 {
+        background-color:  #00ace6;
+    }
+    
+    .div-2 {
+    	background-color: #2ACCC0;
+    }
+    
+    .div-3 {
+    	background-color: #3a9dca;
+    }
+	.div-4 {
+	padding:0 8px;	
+    	background-color: #352812;
+		height:70px;
+		display: flex;
+		  list-style-type: none;
+		  justify-content: center;
+		  flex-wrap: wrap;
+    }
+	.textcol {  
+	  color: #ab1232;  
+	}  
+	.form-group1 {
+        margin-bottom: $form-group-margin-bottom;
+    }
+    .form-group2 {
+		  display: flex;
+		  flex: 0 0 auto;
+		  flex-flow: row wrap;
+		  align-items: center;
+		  margin-bottom: 0;
+    }
+	.footer-icons{
+    display: inline;
+	width: 50px;
+	height: 50px;
+	cursor: pointer
+	
+	background-color: #33383b;
+	border-radius: 10px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 35px;
+ 
+    }
+	/*  14.Contact Area
+/*--------------------------------*/
+
+.contact-area {
+  height: auto;
+  width: 100%;
+}
+
+.contact-content {
+  padding: 100px;
+  background: #000 none repeat scroll 0 0;
+}
+
+.contact-content-right {
+  padding: 100px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 2px solid #199EB8;
+  border-radius: 0;
+  color: #444;
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.contact-form textarea  {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #444;
+  height: 140px;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact-form button[type="submit"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  color: #444;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  border-radius: 30px;
+}
+
+.contact-form button[type=submit]:hover {
+  color: #fff;
+  border: 1px solid #3EC1D5;
+  background: #3EC1D5;
+}
+
+.contact-form  #sendmessage {
+  color: #3EC1D5;
+  border: 1px solid #3EC1D5;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-form #sendmessage.show, .contact-form #errormessage.show, .contact-form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.single-icon i {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #444;
+  line-height: 46px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.single-icon p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.contact-icon {
+  margin-bottom: 40px;
+}
+
+#google-map {
+  height: 370px;
+  margin-bottom: 20px;
+}
+.ghost {
+  visibility: hidden;
+}
+.center {
+  text-align: center;
+}
+
+/*----------------------------------------*/
+</style>
+</head>
+<body >
+<!--
+<section class="cls">
+    <div class="rt-container">
+	    <div class="col-rt-12">
+		    <div class="Scriptcontent">
+				<div class="navbar navbar-fixed-top container-fluid" id="navbar">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle navbar-default" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+					    </button>
+					    <a class="navbar-brand"></a>
+					    <a class="navbar-brand"><img  src="images/logo/lll2.jpg" alt=""></a>
+					</div>
+					<div class="collapse navbar-right navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<!--<li>Home</li>
+							<li>About</li>
+							<li>Contact</li>
+							<li>Login</li>
+							<li>Signup</li>
+							<li href="#description">Description</li>
+							<li href="#produits">Produits</li>
+							<li href="#ingrédients">Ingrédients</li>
+							<li href="#détaillants">Détaillants</li>								
+							<li href="#contact">Contact</li>
+						</ul>
+					</div>
+				</div>
+				<div class="para">
+				  <h3>SÉrabliEh! Une excellente source d'hydratation</h3>
+				</div>
+				
+			</div>
+	    </div>
+    </div>
+</section> -->
+<script> 
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    
+    document.getElementById("navbar").style.background = "#501e27";
+  } else {
+   
+    document.getElementById("navbar").style.background = "none";
+  }
+}
+</script>
+
+<section class=""> <!--class="wpm_header0" to change background menuwpm_header0 -->
+	<nav> 
+	    <div = "container ">
+		<ul class="nav-cont">
+		    <a href="#">Trouvez nos partenaires a travers le monde</a>
+			<a href="#">Aglais</a>
+			<a href="#" class="second">Francais</a>
+		</div>
+		</ul>
+	</nav>
+	<div class="container ">
+		<div class="col-sm-3 wpm_mobile_center" data-uk-scrollspy="{cls:'uk-animation-slide-left', repeat: true}">
+			<a  href="index.html"><img class="wpm_logo" src="images/logo/lll222.jpg" alt=""><h4><strong></strong></h4></a>
+				<div class="clearfix"></div>
+			</a>
+<!--			<div class="navbar-brand "><img  src="images/logo/lll2.jpg" alt=""></div>
+-->
+			<!--<div class="carousel-caption">
+			       <a  href="#service">
+						<button class="btn btn-default" type="submit">
+							<i class="fa-solid fa-cart-shopping"></i>Acheter
+						</button>
+					</a>
+				</div> -->
+		</div>   
+		<div class="col-sm-9">
+			<nav class="navbar navbar-default wpm_navber">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav navbar-right "> 
+					<li><a href="#description">Description</a></li>
+					<li><a href="#produits">Produits</a></li>
+					<li><a href="#ingrédients">Ingrédients</a></li>
+					<li><a href="#detaillants">Détaillants</a></li>								
+					<li><a href="#contact">Contact</a> </li>
+				 </ul>
+				</div>
+			</nav>	
+		</div>
+	</div>     
+</section> 
+
+<section class="wpm_slider_area">
+	<div class="container ">   
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol> 
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active " >
+					<img  src="images/slider/ofthree0.JPG" alt="...">
+					<div class="carousel-caption">
+						<h2 class = "textcol">ÉrabliEh! Une excellente source d'hydratation</h2><br>
+
+						<a href="#"><button class=" btn btn-default" type="submit">Acheter</button></a>
+						<a href="#"><button class="ghost btn btn-default" type="submit">Learn More</button></a>
+				   </div>
+				</div>
+				<div class="item">
+					<img  src="images/slider/back2.jpg" alt="...">
+				</div>
+				<div class="item">
+					<img src="images/slider/ofthree.JPG" alt="...">
+				</div>
+			</div>   
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+</section>
+<!-- background-image:url("images/slider/ARBRE3.jpg");
+	 background-position: center; -->
+<!-- 
+<section>
+	<nav class="nav-cont1" > 
+		<span>Description</span>
+	</nav>-->
+</section>
+<section class="wpm_about_area " id ="description">
+	<div class="container">
+	    <div class="row">
+            <div class="col-sm-12">
+                <h2>Description</h2>
+                <div class="wpm_border"></div>
+            </div>
+        </div>
+		<div class="row">
+			<div class="col-sm-6">
+				<h3 class="center textcol">Boisson de choix pour 
+				   Mikaël Grenier, Coureur automobile.</h3>
+				
+                <img src="images/slider/4.png"  data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true}">
+			</div>
+			<div class="col-sm-6 ">
+				<p class="ghost">Notre vision dans l’élaboration de notre produit est :</p> </br>
+				<p>Notre vision dans l’élaboration de notre produit est :</p> </br>
+				<p class="date">Imaginer un mode de vie SANS STRESS et mettre le FOCUS sur le BIEN-ÊTRE et le CALME NATUREL. Libérer son esprit pour créer, concevoir et inspirer.</p>
+				<p>Personne ne sera en sécurité tant que tout le monde entier ne le sera pas. </br>
+					Le dispositif pour accélérer l'accès aux outils de lutte contre la COVID-19 (Accélérateur ACT) </br></br>
+					est une nouvelle collaboration mondiale novatrice visant à accélérer la mise au point et la production de produits de diagnostic, 
+					de traitements et de vaccins contre la COVID-19 et à en assurer un accès équitable</p>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				</br>
+				<a class="btn btn-default" href = "" role="button" >Acheter</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+<!-- 
+<section>
+	<nav class="nav-cont1"> 
+		<span>Produits</span>
+	</nav>
+</section> 
+-->
+ <section class="wpm_service_area"  id ="produits">
+       <div class="container">
+		<div class="row">
+            
+              <div class="col-sm-12">
+                
+                  <h2 style="color:white;">produits</h2>
+                  <div class="wpm_border"></div>
+                
+                </div>
+            
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                
+                  <div class="wpm_service_box">
+                    
+                      <div class="blog_img"> 
+                          <img src="images/slider/1.png">
+                        </div>        
+                        
+                        <span>En solde</span>
+                            
+                         <div class="wpm_service_text" align="left">   
+                        <h3 >MapleEh! - 355ml - 4 bouteilles</h3><br> 
+                            
+                            
+                            
+                        </div>    
+                    
+				</div>
+				<p class="wpm_service_box"><del>11,99 $CA</del> <strong>9,99 $CA</strong> 
+							<div class="text-center wpm_number_btn wpm_mobile_center">
+							<a class="btn btn-default btn-lg active  " href="#" style=" text-align: left;color:black;margin-top: 20px;"
+								role="button">Acheter
+							</a>							 
+						</div>
+						</p>
+
+                </div>
+								
+				<div class="col-sm-4">
+					<div class="wpm_service_box">
+						<div class="blog_img"> 
+                          <img src="images/slider/2.png">
+                        </div>        
+                        <span>En solde</span>
+                        <div class="wpm_service_text" align="left">   
+                        
+                             <h3>MapleEh! - 750ml - 1 bouteille </h3> <br>
+                             
+                            
+                        </div>    
+                    
+                    </div>
+						<p class="wpm_service_box"><del>8,99 $CA </del> <strong>5,99 $CA</strong> 
+							<div class="text-center wpm_number_btn wpm_mobile_center">
+							<a class="btn btn-default btn-lg active  " href="#" style=" text-align: left;color:black;margin-top: 20px;"
+								role="button">Acheter
+							</a>							 
+						</div>
+						</p>
+											
+											
+
+                </div>
+					 <div class="col-sm-4">
+                
+                  <div class="wpm_service_box">
+                    
+                      <div class="blog_img"> 
+                          <img src="images/slider/4.png">
+                        </div>        
+                        
+                        <span>En solde</span>
+                            
+                         <div class="wpm_service_text" align="left">   
+                        
+                             <h3>MapleEh! - 355ml - 4 canettes</h3><br> 
+                            
+                            
+                        </div>    
+                    
+                    </div>
+                       <p class="wpm_service_box"><del>11,99 $CA</del> <strong>9,99 $CA</strong> 
+							<div class="text-center wpm_number_btn wpm_mobile_center">
+							<a class="btn btn-default btn-lg active  " href="#" style=" text-align: left;color:black;margin-top: 20px;"
+								role="button">Acheter
+							</a>							 
+						</div>
+						</p>
+
+                </div>
+
+			
+
+				
+            
+            </div>
+ 
+        </div>
+    </div>
+</section>
+<section  class="wpm_blog_area" id="ingrédients">
+   
+    <div class="container">
+           
+          <div class="row">
+            
+              <div class="col-sm-12">
+                
+                  <h2>Ingrédients</h2>
+                  <div class="wpm_border"></div>
+                
+                </div>
+            
+            </div>
+            
+            <div class="row">
+            
+              <div class="col-sm-12">
+                
+                  <div id="owl-demo" class="owl-carousel owl-theme">
+                       
+                      <div class="item">
+                      
+                          <div class="wpm_blog_box">
+                            
+                              <div class="col-sm-6">
+                                  <h3>Érablier, produit à base de filtrat d'érable.
+</h3>
+                                  <img class="" src="images/slider/ARBRE3.jpg">
+								
+                                
+                                </div>
+                                
+                                <div class="col-sm-6 wpm_left_padding">
+                                
+                                  <h3 class = "textcol">SIROP D'ÉRABLE</h3>
+                                  <div class="date" >Publié le 2 octobre 2020</div>
+                                    
+										<p style="color:#a76127;">
+										Le sirop d’érable comporte un INDICE GLYCÉMIQUE FAIBLE. À long terme, vous aurez un peu moins de risques de souffrir du diabète de type 2 en consommant du sirop d’érable plutôt que du sucre blanc.
+
+										On connait tous les bienfaits des ANTIOXYDANTS sur la santé (prévention du cancer, diminution des risques de maladie du cœur, etc.). Les POLYPHÉNOLS font partie de la famille des antioxydants. Ils aident à diminuer les risques de développer le diabète de type 2, de contracter certaines maladies cardiovasculaires et de souffrir d’obésité.</p>
+
+
+										<p>On connait tous les bienfaits des ANTIOXYDANTS sur la santé (prévention du cancer, diminution des risques de maladie du cœur, etc.). Les POLYPHÉNOLS font partie de la famille des antioxydants. Ils aident à diminuer les risques de développer le diabète de type 2, de contracter certaines maladies cardiovasculaires et de souffrir d’obésité.</p>
+
+
+										<p>​Contrairement aux autres sucres, le sirop d’érable contient de l’ACIDE ABSCISSIQUE. Chez l’humain, il serait bénéfique pour lutter contre le diabète. Il aiderait même à le contrôler dans certains cas.</p>
+
+
+										<p>​Le sirop d’érable 100 % pur ne renferme NI COLORANT NI AGENT DE CONSERVATION, contrairement à bien d’autres aliments sucrés.</p>
+
+
+										<p>Le MAGNÉSIUM aide à combattre les maladies coronariennes.</p>
+
+
+										<p>Pour que les os se forment, il faut du MANGANÈSE. Ce nutriment joue aussi un rôle dans la production d’énergie.</p>
+
+
+										<p> 
+										Le ZINC est vital pour le système immunitaire. Le sirop d’érable! Cet aliment est en effet reconnu par des chercheurs comme étant une bonne source de zinc.</p>
+
+
+										<p>Contient aussi du CALCIUM.​</p>
+																			
+                                    <button class="btn btn-default" type="submit">En savoir plus</button>
+                                
+                                </div>
+                                
+                                <div class="clearfix"></div>
+                            
+                            </div>
+                      
+                      </div>
+                      
+                      
+                      
+                </div>
+            
+            </div>
+        
+        </div>
+    </div>
+   
+</section>
+<!-- 
+<section>
+	<nav class="nav-cont1"> 
+		<span>Détaillants</span>
+	</nav>
+</section> 
+-->  
+<section class="wpm_service_area"   id="detaillants">
+<div class="container">
+    <div class="row">
+            
+              <div class="col-sm-12">
+                
+                  <h2 style="color:white;">Détaillants</h2>
+                  <div class="wpm_border"></div>
+                
+              </div>
+            
+			</div>
+	<div class="row">
+		<div class="col-sm-4">
+		
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/superstore.png">
+				</div>     
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/wamart.jpg">
+				</div>     
+			</div>
+		</div>
+		<div class="col-sm-4">
+		
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/iga.png">
+				</div>     
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/provigo_orig.png">
+				</div>     
+			</div>
+		</div>
+		<div class="col-sm-4">
+		
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/sobeys-logo.png">
+				</div>     
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/couchetard.png">
+				</div>     
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/corner.png">
+				</div>     
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="wpm_service_box">
+			
+				<div class="blog_img"> 
+				  <img src="images/slider/costco-logo-1.jpg">
+				</div>     
+			</div>
+		</div>
+						
+	</div>
+	</div>
+</section>   
+<!--   
+<section>
+	<nav class="nav-cont1"> 
+		<span>Contact</span>
+	</nav>
+</section>
+-->
+<section class=" nav-cont0 wpm_contact_area" id="contact">
+	 <div class="contact-inner area-padding">
+		<div class="contact-overly"></div>
+		<div class="container">
+		    <div class="row">
+            
+              <div class="col-sm-12">
+                
+                  <h2>Contact</h2>
+                  <div class="wpm_border"></div>
+                
+              </div>
+            
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row">
+				
+						<form action="" method="post" role="form" class="contactForm">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<!-- Start Map -->
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Veuillez entrer au moins 4 caractères" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Veuillez entrer une adresse e-mail valide" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" name="subject" id="subject" placeholder="L'objet" data-rule="minlen:4" data-msg="Veuillez entrer au moins 8 caractères pour l'objet" />
+									<div class="validation"></div>
+								</div>
+								<!-- End Map -->
+							</div>
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="form contact-form">
+									<div id="sendmessage">Votre message a été envoyé. Merci !</div>
+									<div id="errormessage"></div>
+									<div class="form-group">
+										<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Veuillez écrire quelque chose pour nous" placeholder="Message"></textarea>
+										<div class="validation"></div>
+									</div>
+									<div class="text-center"><button type="submit">Envoyez</button></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>
+<section class=" nav-cont0 wpm_contact2_area" id="contact">
+	 <div class="contact-inner area-padding">
+	    <div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="row">
+						<a  href="index.html"><img class="wpm_logo" src="images/logo/lll2.jpg" alt=""><h4><strong></strong></h4></a>
+						<div class="clearfix"></div>
+					   </a>
+						
+					</div>	
+			    </div>		
+			
+				<div class="col-sm-6">
+                    <div class="wpm_contact_text">
+						<i class="fa fa-map-marker"></i>
+                        <p> énal,cité </p>
+						<div class="clearfix"></div>
+
+					</div>
+					<div class="wpm_contact_text">
+						<i class="fa fa-phone"></i>
+                        <p> (+1)  58679698 
+						</p>
+                    </div>
+                    <div class="wpm_contact_text">
+						<i class="fa fa-envelope-o"></i>
+                        <a href="#">ac@yahoo.fr</a>
+                    </div>
+                    <div class="wpm_contact_text">
+						<i class="fa fa-clock-o"></i>
+                        <p>Du Lundi au Vendredi entre 9:00h et 18:00h</p>
+						<div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </div>
+		</div>
+	</div>
+</section>  
+
+<section class=""> <!--class="wpm_header0" to change background menuwpm_header0 -->
+	<div class="container ">
+		
+		<div class="col-sm-9">
+			<nav class="navbar navbar-default wpm_navber">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav navbar-right "> 
+					<li><a href="#description">Description</a></li>
+					<li><a href="#produits">Produits</a></li>
+					<li><a href="#ingrédients">Ingrédients</a></li>
+					<li><a href="#detaillants">Détaillants</a></li>								
+					<li><a href="#contact">Contact</a> </li>
+				 </ul>
+				</div>
+			</nav>	
+		</div>
+	</div>     
+</section>     
+<!--class="wpm_frooter_ending"-->
+<section class =" div-4">
+        <div class="col-sm-12 text-center wpm_mobile_center">
+            <p>Copyright &copy; 2009-<script>document.write(new Date().getFullYear())</script> <a href="http://ÉrabliEh.com/" target=""><strong>MÉrabliEh</strong></a></p> 
+			<p class=" copytext">Design By <a  href="http://html5load.com/"  target="_blank" class="copylink">html5load.Com</a></p>
+		</div> 
+</section>
+  
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/Main-script.min.js"></script> 
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+   

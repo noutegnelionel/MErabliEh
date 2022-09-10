@@ -1,0 +1,80 @@
+
+/* Tablet Layout: 768px. */
+
+@media (max-width: 768px), only screen and (max-device-width: 768px) {
+.wpm_mobile_center{  float:none; text-align:center; }
+.wpm_header{ min-height:80px; }
+.wpm_menu li a{ padding:10px 10px; }
+.navbar-toggle{ margin-top:-85px; margin-bottom:5px; margin-right:0px; }
+.wpm_logo{  margin:0 auto; margin-top:15px; float: left;}
+.open .dropdown-menu>li>a:hover{ background:rgba(0, 0, 0, 0.5) !important; color:#FFF !important;}
+.navbar-nav .open .dropdown-menu>li>a{ color:#FFF !important; background: #2B3F46; text-align:center;}
+.wpm_navber{ background:none; margin-bottom:0px;}
+.navbar-header{ text-align:center;}
+.navbar{ min-height: 0px; }
+
+
+.header_style .navbar-toggle {
+    margin-top: -65px;}
+
+
+.wpm_header_top p{ text-align:center; margin-bottom:10px; margin-top: 0px;}
+.wpm_header_top .social{ margin-bottom: 0px; }
+
+.wpm_slider_area { width: 100%; padding-top: 95px;}
+.wpm_slider_area .btn{ margin-bottom:20px;}
+.carousel-control .glyphicon-chevron-right{ top:44%;}
+.carousel-control .glyphicon-chevron-left{ top:44%;}
+
+
+.wpm_service_area .col-sm-3{ border:none;}
+
+
+
+
+
+}
+
+
+
+@media (max-width: 480px), only screen and (max-device-width: 480px) {
+
+.wpm_logo{ height: 58px; }
+.header_style .wpm_logo{ height: 45px; }
+
+.navbar-toggle {
+    margin-top: -70px;}
+.header_style .navbar-toggle {
+    margin-top: -50px;}
+
+.wpm_slider_area .btn { display:none;}
+.wpm_slider_area h1{ font-size:16px; margin-bottom:30px;}
+.carousel-control .glyphicon-chevron-right{ top:50%; font-size:20px;}
+.carousel-control .glyphicon-chevron-left{ top:50%; font-size:20px;}
+
+
+.wpm_blog_box h1{ font-size: 24px; margin-top: 10px; }
+
+
+}
+
+
+@media (max-width: 320px), only screen and (max-device-width: 320px) {
+
+.wpm_logo{ height: 42px; }
+.header_style .wpm_logo{ height: 42px; }
+.navbar-toggle {
+    margin-top: -60px;}
+.header_style .navbar-toggle {
+    margin-top: -50px;}   
+
+.wpm_slider_area{
+	padding-top: 80px;
+}
+.carousel-indicators{ bottom:0px;}
+.wpm_slider_area h1{ font-size:10px; margin-bottom:0px; line-height:16px;}
+
+
+.wpm_contact_box span{ width:110px;}
+
+}
